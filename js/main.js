@@ -3,7 +3,7 @@
 
 {
   const images = [
-    'img/pic00.png',
+    'img/welcome!2.png',
     'img/pic01.png',
     'img/pic02.png',
     'img/pic03.png',
