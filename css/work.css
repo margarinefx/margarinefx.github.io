@@ -42,6 +42,8 @@ a {
 menu {
 	 display: block;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 h1 {
 	text-align: center;
@@ -71,6 +73,9 @@ footer {
         position: inherit;
         width: auto;
     }
+	.split-left__inner img{
+	width: 100%;
+}
 	.nav a{
 		display: none;
 	}

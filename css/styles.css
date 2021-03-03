@@ -35,7 +35,7 @@ display: none;
 
 .features > h1 {
   text-align: center;
-  padding: 64px 0;
+  padding: 7vw 0;
   font-weight: normal;
 }
 
@@ -69,8 +69,9 @@ display: none;
 
 .members > h1 {
   text-align: center;
-  padding: 64px 0;
+  padding: 64px 0 10vw 0;
   font-weight: normal;
+	margin: 0;
 }
 
 .members ul {
@@ -81,7 +82,7 @@ display: none;
 }
 
 .members li img {
-  width: 250px;
+  width: 50%;
   border-radius: 50%;
 	margin: 0 auto;
 }
@@ -112,8 +113,11 @@ display: none;
 footer {
   padding: 64px 0;
   background: #000;
-  color: #98969c;
   text-align: center;
+}
+footer a{
+	color: white;
+	text-decoration: none;
 }
 @media (min-width: 900px) {
 
@@ -138,7 +142,9 @@ header a{
 	width: 70%;
 }
 
-	
+	.features > h1 {
+  padding: 64px 0;
+}
   .features .container {
     width: 800px;
     margin: 0 auto;
@@ -195,6 +201,9 @@ header a{
   .members li {
     width: 250px;
   }
+	.members li img {
+  width: 250px;
+	}
 .members > h1{
 		margin: -190px 0 0 0;
 	}
