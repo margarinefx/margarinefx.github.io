@@ -76,10 +76,18 @@ footer {
 	.split-left__inner img{
 	width: 100%;
 }
-	.nav a{
+	.split-right__inner img{
+		margin: 5vw 0;
+	}
+	.nav {
 		display: none;
 	}
 	menu img{
 	width: 100%;
 }
+	h1 {
+		margin: 5vw 0 0 0;
+		padding: 0;
+		font-size: 8vw;
+	}
 }
